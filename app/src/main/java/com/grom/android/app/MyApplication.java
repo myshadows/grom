@@ -1,4 +1,4 @@
-package com.ainemo.android.app;
+package com.grom.android.app;
 
 import android.app.Application;
 import android.content.Context;

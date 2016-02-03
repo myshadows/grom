@@ -1,4 +1,4 @@
-package com.ainemo.android.module;
+package com.grom.android.module;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

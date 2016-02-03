@@ -1,7 +1,7 @@
-package com.ainemo.android.app;
+package com.grom.android.app;
 
-import com.ainemo.android.module.AppModule;
-import com.ainemo.android.module.Network;
+import com.grom.android.module.AppModule;
+import com.grom.android.module.Network;
 
 import android.support.annotation.WorkerThread;
 

@@ -1,4 +1,4 @@
-package com.ainemo.android;
+package com.grom.android;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
