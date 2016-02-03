@@ -1,11 +1,11 @@
 package com.grom.android.activity;
 
-import com.grom.android.R;
-import com.grom.android.app.MyApplication;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.grom.android.R;
+import com.grom.android.app.MyApplication;
 
 import javax.inject.Inject;
 
