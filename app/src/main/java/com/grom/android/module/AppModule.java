@@ -9,12 +9,10 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by tony on 1/8/16.
- */
 @Module
 @WorkerThread
 public class AppModule {
+
     private final Application mApp;
 
     public AppModule(Application app) {

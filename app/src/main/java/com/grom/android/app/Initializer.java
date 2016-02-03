@@ -1,16 +1,13 @@
 package com.grom.android.app;
 
+import android.support.annotation.WorkerThread;
+
 import com.grom.android.module.AppModule;
 import com.grom.android.module.Network;
-
-import android.support.annotation.WorkerThread;
 
 import rx.Observable;
 import rx.Subscriber;
 
-/**
- * Created by tony on 1/8/16.
- */
 public class Initializer implements Observable.OnSubscribe<AppComponent> {
     private final MyApplication mApplication;
 

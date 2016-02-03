@@ -14,9 +14,6 @@ import dagger.Provides;
 import rx.Observable;
 import rx.Subscriber;
 
-/**
- * Created by tony on 1/8/16.
- */
 @Module
 public class Network extends BroadcastReceiver implements Observable.OnSubscribe<NetworkInfo>{
 
