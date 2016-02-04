@@ -1,11 +1,11 @@
-package com.grom.android.activity;
+package com.grom.main;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.grom.android.R;
-import com.grom.android.app.MyApplication;
+import com.grom.R;
+import com.grom.app.MyApplication;
+import com.grom.base.BaseActivity;
 
 import javax.inject.Inject;
 
@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
 
     private static final String TAG = "MainActivity";
 
@@ -39,6 +39,7 @@ public class MainActivity extends Activity {
                         mTextView.append("\n");
                     });
                 });
+
         ButterKnife.bind(this);
     }
 }

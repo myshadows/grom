@@ -1,4 +1,4 @@
-package com.grom.android.app;
+package com.grom.app;
 
 import android.app.Application;
 import android.content.Context;

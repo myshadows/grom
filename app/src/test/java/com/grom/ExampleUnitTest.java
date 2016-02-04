@@ -1,4 +1,4 @@
-package com.grom.android;
+package com.grom;
 
 import org.junit.Test;
 

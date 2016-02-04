@@ -1,8 +1,8 @@
-package com.grom.android.app;
+package com.grom.app;
 
-import com.grom.android.activity.MainActivity;
-import com.grom.android.module.AppModule;
-import com.grom.android.module.Network;
+import com.grom.main.MainActivity;
+import com.grom.module.AppModule;
+import com.grom.module.Network;
 
 import javax.inject.Singleton;
 
