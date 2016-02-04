@@ -1,16 +1,19 @@
 package com.grom.main;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.grom.R;
 import com.grom.app.MyApplication;
 import com.grom.base.BaseActivity;
+import com.grom.web.WebActivity;
 
 import javax.inject.Inject;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 
@@ -41,5 +44,11 @@ public class MainActivity extends BaseActivity {
                 });
 
         ButterKnife.bind(this);
+    }
+
+    @OnClick(R.id.text)
+    public void goWebActivity(){
+        Intent intent = new Intent(MainActivity.this, WebActivity.class);
+        startActivity(intent);
     }
 }
