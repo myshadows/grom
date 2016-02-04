@@ -30,13 +30,20 @@
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:supportsRtl="true">
-        <activity android:name="com.grom.main.MainActivity">
+        <activity
+            android:name="com.grom.main.SplashActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="com.grom.main.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
 
         <activity android:name="com.grom.web.WebActivity"
             android:exported="false"
